@@ -23,8 +23,8 @@ public class Circonferenza {
         int coloreRand;
         
         raggio = (float) Math.random() * 8 + 1;
-        posX = (int) (Math.random() * 19 - 9);
-        posY = (int) (Math.random() * 19 - 9);
+        posX = (int) (Math.random() * 20 - 10);
+        posY = (int) (Math.random() * 20 - 10);
         
         coloreRand = (int) (Math.random() * 3);
         switch(coloreRand) {
